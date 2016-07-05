@@ -1,7 +1,1 @@
-@@import 'css/style_index.css';
-
-.headline{
-font-size: 30em;
-color: green;
-
-}
+@import 'style_index.css';
