@@ -1,9 +1,9 @@
-<style>
+
 div.img {
-    margin: 5px;
+    margin: 40px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 300px;
 }
 
 div.img:hover {
@@ -16,7 +16,10 @@ div.img img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 25px;
     text-align: center;
 }
-</style>
+div.row {
+  display: inline-block;
+  width: 100%;
+}
