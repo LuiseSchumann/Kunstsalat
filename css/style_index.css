@@ -1,11 +1,103 @@
 *{padding: 0; margin: 0;}
-html{overflow-y: scroll;}
+html{
+  height: 100%;
+  overflow-x: hidden;
+}
 div{
   margin: 0;
   border-color: green;
-  border-width: 1px;
+  border-width: 0px;
   border-style: solid;
 }
+.navMain, #content {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+
+
+
+.navMain {
+  z-index: 100;
+	width:240px;
+	height:100%;
+	position:fixed;
+	left:-240px;
+	background: rgba(0, 0 , 0, 0.5);
+  padding-top: 70px;
+}
+
+.navMain li{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#content {
+
+}
+
+#openBtn,
+#closeBtn {
+  position: fixed;
+  z-index: 200;
+	width:40px;
+	height:40px;
+	margin:0 0 20px 0;
+	color:white;
+	padding:10px;
+}
+
+#openBtn {
+  z-index: 200;
+  position: fixed;
+	background:green;
+	display:block;
+}
+
+#closeBtn {
+  z-index: 200;
+  position: fixed;
+  display:none;
+}
+
+
+/* if nav open */
+
+#openNav:target .navMain {
+  position: fixed;
+  z-index: 200;
+  left:0;
+}
+
+#openNav:target #content {
+  position: fixed;
+  z-index: 300;
+	margin-left:0px;
+	position:fixed;
+}
+
+#openNav:target #openBtn {
+  position: fixed;
+  z-index: 200;
+  display:none;
+}
+
+#openNav:target #closeBtn {
+  position: fixed;
+  z-index: 200;
+  display: block;
+	background:red;
+}
+
+
+
+
+
+
+
 .headline{
 margin: auto;
 position: absolute;
@@ -27,12 +119,8 @@ border-color: white;
 padding-top: 30px;
 border-color: white;
 }
-.wraper{
-width: 1200px;
 
-}
-
-.box1{
+#openNav {
   height: 100%;
   background-image: url('../images/rotkohl.png');
   background-position: center top;
@@ -40,6 +128,6 @@ width: 1200px;
   margin: 0;
 }
 .fussbereich{
-margin-top: 300px;
+margin-top: 800px;
 
 }
