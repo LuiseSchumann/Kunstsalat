@@ -18,10 +18,14 @@ html{
   flex-wrap: wrap;
   justify-content: center;
   position: fixed;
-  font-size: 40px;
+  font-size: 60px;
+  width: 60px;
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
 
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 60px;
 }
 
 
@@ -30,9 +34,7 @@ html{
 
 
 #test{
-  transition: 3s;
-  width: 40px;
-  display:block;
+  display:block;;
 }
 
 
@@ -43,7 +45,7 @@ html{
   top: 0px;
   left: 0px;
   overflow-x: hidden;
-  transition: 3s;
+  transition: 0.5s;
   width: 0px;
   z-index: 1;
   height: 100%;
