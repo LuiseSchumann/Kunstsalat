@@ -5,38 +5,40 @@
   <meta name="discription" content="Die coolste Kolletion von Zine's auf der ganzen Welt!">
   <meta charset="utf-8">
   <link href="css/main.css" rel="stylesheet" media="screen">
+  <script language="javascript" type="text/javascript" src="javascript/java_index.js" ></script>
 </head>
 
 
 <body>
 <div class="wrapper">
-<div id="openNav">
+<div class="box1">
 
-  <div class="navMain">
-    <ul>
-      <li>1 Home</li>
-      <li>2 Über uns?</li>
-      <li>3 Kategorien</li>
-      <li>4 Kontakt</li>
+  <div class="kopfbereich">
+    <p id="test" onclick="openNav()">☰</p>
+  </div> <!--Ende Kopfbereich -->
+
+
+  <div id="sidenav" class="navigation">
+     <ul>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li>Start</li>
+      <li>Über</li>
+      <li>Kategorien</li>
+      <li>Kontakt</li>
     </ul>
 
   </div> <!-- Ende navigation -->
 
-    <div id="content">
-      <a href="#openNav" id="openBtn"><img src="images/burgermenue.png" alt="Open" width="30px"/></a>
-      <a href="#closeNav" id="closeBtn"><img src="images/burgermenue.png" alt="Close" width="30px"/></a>
-    </div> <!-- Ende content-->
+
+  <div class="textbereich">
+    <h1 class="headline">Kunstsalat</h1>
+  </div> <!-- Ende Textbereich -->
+</div> <!-- Ende box1 -->
 
 
-<div class="textbereich">
-  <h1 class="headline">Kunstsalat</h1>
-</div> <!-- Ende Textbereich -->
-
-</div> <!-- Ende opennav -->
   <div class="fussbereich">
     <p>Bla bla bla!</p>
   </div> <!-- Ende fussbereich*/ -->
-
 
   </div> <!-- Ende wrapper -->
 
