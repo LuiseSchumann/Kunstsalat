@@ -164,20 +164,31 @@ padding-top: 50px;
   left: 0;
   right: 0;
   bottom: 0;
-  padding-top: 300px;
-  padding-bottom: 300px;
-  padding-left: 50px;
-  padding-right: 50px;
+  height: 100vh;
 }
 
+#beschreibung-headline{
+  position: absolute;
+  top: -39px;
+  left: 20px;
+  font-size: 50px;
+  color: rgb(255,255,255);
+}
 
 /*------ beschreibung Ende ------*/
+
+.container-zine{
+  position: relative;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
 
 /*------ akt-zine Anfang ------*/
 .akt-zine{
 
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -185,16 +196,21 @@ padding-top: 50px;
    rgb(110,225,210) 20%,
    rgb(220,170,240) 70%
    );
-  position: relative;
-  top: 100vh;
-  left: 0;
-  right: 0;
-  bottom: 0;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
 }
+
+#akt-zine-headline{
+  position: absolute;
+  top: -38px;
+  right: 20px;
+  font-size: 50px;
+  color: rgb(110,225,210);
+}
+
+
 /*------ akt-zine Ende ------*/
 
 
