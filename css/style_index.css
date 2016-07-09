@@ -1,6 +1,9 @@
+@import 'parallax.css';
+
 *{padding: 0; margin: 0;}
 html{
-  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
   font-family: sans-serif;
   font-weight: lighter;
 }
@@ -14,6 +17,7 @@ html{
 /*------ Kopfbereich (Burgermenue) Anfang ------*/
 
 .kopfbereich{
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -41,6 +45,7 @@ html{
 /*------ Navigation Anfang ------*/
 
 .navigation{
+  z-index: 10000;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -149,17 +154,48 @@ padding-top: 50px;
 
 /*------ Textbereich Ende ------*/
 
-.box1{
-  height: 100%;
+.bgimg{
+  height: 100vh;
   background-image: url('../images/rotkohl.png');
   background-position: center top;
   background-size: cover;
   margin: 0;
 }
 
+/*------ akt_zine Anfang ------*/
+.akt_zine{
+  position: relative;
+  top: 100vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 500px 0;
+  background-color: green;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+}
+/*------ akt_zine Ende ------*/
+
+/*------ kontakt Anfang ------*/
+.kontakt{
+  position: relative;
+  top: 100vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 500px 0;
+  background-color: red;
+  border-color: green;
+  border-width: 1px;
+  border-style: solid;
+}
+/*------ kontakt Ende ------*/
+
+
 /*------ Fußbereich Anfang ------*/
 .fussbereich{
-margin-top: 1200px;
+margin-top: 0px;
 
 }
 
