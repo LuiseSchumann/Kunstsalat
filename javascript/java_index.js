@@ -1,5 +1,5 @@
 function openNav() {
-    document.getElementById("sidenav").style.width = "220px";
+    document.getElementById("sidenav").style.width = "260px";
     /*document.getElementsByClassName("kopfbereich").style.display = 'none';*/
     document.getElementById("test").style.display = 'none'
 }

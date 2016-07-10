@@ -6,6 +6,7 @@ html{
   overflow-y: auto;
   font-family: sans-serif;
   font-weight: lighter;
+  font-family: "Comic Zine OT";
 }
 /*div{
   margin: 0;
@@ -22,10 +23,10 @@ html{
   flex-wrap: wrap;
   justify-content: center;
   position: fixed;
-  font-size: 40px;
-  width: 40px;
+  font-size: 50px;
+  width: 50px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 1);
 
 }
 
@@ -51,11 +52,11 @@ html{
   width: 0px;
   z-index: 1;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
 }
 
   .navigation ul{
-padding-top: 50px;
+padding-top: 70px;
   }
 
   /*  .navigation li{
@@ -81,39 +82,49 @@ padding-top: 50px;
     list-style-type: none;
     padding-top: 20px;
     margin-top: 3px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
-    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    font-size: 50px;
     }
 
     .navigation li:hover{
     color: green;
     }
     .navigation a#spezial:link, .navigation a:visited{
-      color: white;
+      color: black;
       text-decoration: none;
     }
     .navigation a#spezial:hover{
       background-color: rgba(255, 255, 255, 0.3);
-      color: white;
-      font-size: 22px;
+      color: black;
+      font-size: 45px;
     }
     .navigation a#spezial:focus{
 
     }
     .navigation a#spezial:active{
       background-color: rgba(255, 255, 255, 0.3);
-      color: white;
-      font-size: 22px;
+      color: black;
+      font-size: 45px;
     }
 
-.closebtn, .closebtn:link, .closebtn:visited, .closebtn:active, .closebtn:focus, .closebtn:hover {
+.closebtn, .closebtn:link, .closebtn:visited, .closebtn:active, .closebtn:focus {
   position: absolute;
   top: 5;
   right: 25px;
-  font-size: 36px;
+  font-size: 50px;
   margin-left: 50px;
-  color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.closebtn:hover{
+  position: absolute;
+  top: 5;
+  right: 25px;
+  font-size: 45px;
+  margin-left: 50px;
+  color: black;
   text-decoration: none;
 }
 
@@ -122,7 +133,7 @@ padding-top: 50px;
 /*------ Navigation Ende ------*/
 
 
-/*------ Textbereich Anfang ------*/
+/*------ Textbereich (LOGO) Anfang ------*/
 
 .headline{
   margin: auto;
@@ -134,24 +145,23 @@ padding-top: 50px;
 
   width: 500px;
   height: 110px;
-  font-size: 80px;
-  font-family: sans-serif;
-  font-weight: lighter;
+  font-size: 100px;
   text-align: center;
-  color: white;
-  border-width: 3px;
-  border-style: solid;
+  color: black;
+  border-width: 5px;
+  border-style: dotted;
   border-color: white;
-  padding-top: 30px;
-  border-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-color: black;
 }
 
-/*------ Textbereich Ende ------*/
+/*------ Textbereich (LOGO) Ende ------*/
 
 .bgimg{
   height: 100vh;
-  background-image: url('../images/rotkohl.png');
-  background-position: center top;
+  background-image: url('../images/kohlsw-01.jpg');
+  background-position: center;
   background-size: cover;
   margin: 0;
 }
@@ -159,7 +169,15 @@ padding-top: 50px;
 /*------ beschreibung Anfang ------*/
 .container-beschreibung{
   position: relative;
-  background-color: white;
+  background-image: url('../images/foldzine-01.png');
+  background-position: center;
+  background-size: cover;
+  border-top: 30px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: black;
 
   top: 100vh;
   left: 0;
@@ -170,6 +188,7 @@ padding-top: 50px;
 
 .beschreibung{
   text-align: center;
+  font-size: 30px;
   padding-top: 10%;
   padding-bottom: 40%;
   padding-left: 10%;
@@ -180,10 +199,10 @@ padding-top: 50px;
 
 #beschreibung-headline{
   position: absolute;
-  top: -39px;
+  top: -100px;
   left: 40px;
-  font-size: 50px;
-  color: rgb(255,255,255);
+  font-size: 80px;
+  color: black;
 }
 
 /*------ beschreibung Ende ------*/
@@ -194,6 +213,8 @@ padding-top: 50px;
     left: 0;
     right: 0;
     bottom: 0;
+
+
 }
 
 
@@ -203,22 +224,32 @@ padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
    rgb(110,225,210) 20%,
    rgb(220,170,240) 70%
-   );
+   );*/
+  background-image: url('../images/container-zine-bg-01.png');
+  background-position: center;
+  background-size: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-top: 30px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: black;
 }
 
 #akt-zine-headline{
   position: absolute;
-  top: -38px;
+  top: -70px;
   right: 20px;
-  font-size: 50px;
+  font-size: 80px;
   color: rgb(110,225,210);
+  color: black;
 }
 
 
@@ -232,7 +263,7 @@ padding-top: 50px;
   background-color: white;
   border-width: 6px;
   border-style: solid;
-  border-color: white;
+  border-color: black;
 }
 
 .klicker{
@@ -243,14 +274,14 @@ padding-top: 50px;
 .klicker p{
   display: block;
   position: relative;
-  top: 100px;
+  top: 40px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
-  border-width: 2px;
-  border-style: solid;
+  border-width: 4px;
+  border-style: dotted;
   border-color: black;
 }
 
@@ -266,7 +297,7 @@ padding-top: 50px;
   top: -100%;
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 .clearing{
