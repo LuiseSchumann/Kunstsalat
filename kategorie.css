@@ -1,25 +1,42 @@
-
-div.img {
-    margin: 40px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 300px;
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
-div.img:hover {
-    border: 1px solid #777;
+a {
+  color: #204156;
+  text-decoration: none;
 }
 
-div.img img {
-    width: 100%;
-    height: auto;
+.page-title {
+  text-align: center;
+  font-weight: 300;
 }
 
-div.desc {
-    padding: 25px;
-    text-align: center;
+.page-description {
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
 }
-div.row {
-  display: inline-block;
-  width: 100%;
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 2px solid #fff;
 }
