@@ -1,8 +1,9 @@
 div.img {
-    margin: 0 auto;
-    float: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 15%;
-    padding: 40px;
+    padding: 0px;
 }
 
 div.img:hover {
@@ -14,20 +15,33 @@ div.img:hover {
 
 div.img img {
     width: 100%;
-    height: auto;
+    height: 270px;
 
 }
 
 div.desc {
     font-family: 'Open Sans', sans-serif;
-    padding: 20px;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 div.row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;;
+  justify-content:center;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content:center;
+  align: center;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   width: 100%;
 
+}
+
+div.all {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
