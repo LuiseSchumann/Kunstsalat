@@ -1,0 +1,33 @@
+div.img {
+    margin: 0 auto;
+    float: left;
+    width: 15%;
+    padding: 40px;
+}
+
+div.img:hover {
+  -webkit-box-shadow: 0px 5px 23px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 23px -11px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 23px -11px rgba(0,0,0,0.75);
+
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+div.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;;
+  width: 100%;
+
+}
