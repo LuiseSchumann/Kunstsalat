@@ -2,7 +2,7 @@
 
 @import url(parallax.css);
 @import url(navigation.css);
-/*@import url(style_index.css) screen;*/
+@import url(style_index.css) screen;
 @import url(bildschirm_0px-360px.css) screen;
 @import url(bildschirm_360px-600px.css) screen;
 @import url(bildschirm_600-npx.css) screen;
