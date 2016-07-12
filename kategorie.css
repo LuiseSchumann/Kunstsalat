@@ -31,10 +31,12 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+
 }
 
 .gallery-item {
   margin: 20px;
+
 }
 
 .gallery-item .thumbnail {
