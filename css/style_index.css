@@ -8,7 +8,7 @@ html{
 }
 
 /*------ Textbereich (LOGO) Anfang ------*/
-/*
+
 .headline{
   margin: auto;
   position: absolute;
@@ -17,24 +17,20 @@ html{
   bottom: 0;
   right: 0;
 
-  width: 200px;
-  height: 40px;
-  font-size: 40px;
   text-align: center;
-  color: black;
-  border-width: 5px;
+  color: white;
   border-style: dotted;
   border-color: white;
   padding: 10px;
   padding-bottom: 20px;
-  border-color: black;
+  border-color: white;
 }
-*/
+
 /*------ Textbereich (LOGO) Ende ------*/
 
 .bgimg{
   height: 100vh;
-  background-image: url('../images/kohlsw-01.jpg');
+  background-image: url('../images/titelbild.png');
   background-position: center;
   background-size: cover;
   margin: 0;

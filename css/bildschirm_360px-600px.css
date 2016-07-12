@@ -5,24 +5,11 @@
   /*------ Textbereich (LOGO) Anfang ------*/
 
   .headline{
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
 
     width: 310px;
     height: 60px;
     font-size: 60px;
-    text-align: center;
-    color: black;
     border-width: 4px;
-    border-style: dotted;
-    border-color: white;
-    padding: 10px;
-    padding-bottom: 20px;
-    border-color: black;
   }
   /*------ Textbereich (LOGO) Ende ------*/
 
