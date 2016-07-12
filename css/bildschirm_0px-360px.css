@@ -17,22 +17,14 @@
 
   .beschreibung{
     font-family: "Marker Felt";
-    text-align: center;
     font-size: 14px;
-    padding-top: 10%;
-    padding-bottom: 40%;
-    padding-left: 10%;
-    padding-right: 10%;
-
   }
 
 
   #beschreibung-headline{
-    position: absolute;
     top: -65px;
     left: 40px;
     font-size: 40px;
-    color: black;
   }
 
   /*------ beschreibung Ende ------*/
@@ -41,12 +33,9 @@
 
 
   #akt-zine-headline{
-    position: absolute;
     top: -70px;
     right: 20px;
     font-size: 80px;
-    color: rgb(110,225,210);
-    color: black;
   }
 
 

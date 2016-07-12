@@ -56,26 +56,21 @@ html{
   bottom: 0;
   height: 100vh;
 }
-/*
+
 .beschreibung{
   text-align: center;
-  font-size: 30px;
   padding-top: 10%;
   padding-bottom: 40%;
   padding-left: 10%;
   padding-right: 10%;
 
 }
-*/
-/*
+
+
 #beschreibung-headline{
   position: absolute;
-  top: -100px;
-  left: 40px;
-  font-size: 80px;
-  color: black;
+  color: white;
 }
-*/
 /*------ beschreibung Ende ------*/
 
 .container-zine{
@@ -107,16 +102,11 @@ html{
   border-style: solid;
   border-color: black;
 }
-/*
+
 #akt-zine-headline{
   position: absolute;
-  top: -70px;
-  right: 20px;
-  font-size: 80px;
-  color: rgb(110,225,210);
   color: black;
 }
-*/
 
 /*------ akt-zine Ende ------*/
 
