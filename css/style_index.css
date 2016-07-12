@@ -4,7 +4,7 @@
 html{
   overflow-x: hidden;
   overflow-y: auto;
-  font-family: "Comic Zine OT";
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*------ Textbereich (LOGO) Anfang ------*/
@@ -19,10 +19,9 @@ html{
 
   text-align: center;
   color: white;
-  border-style: dotted;
+  border-style: solid;
   border-color: white;
-  padding: 10px;
-  padding-bottom: 20px;
+  padding: 1vh 3vw 5vh 3vh;
   border-color: white;
 }
 
