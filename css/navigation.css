@@ -40,7 +40,7 @@
   border-style: solid;
   border-color: black;
   height: 100%;
-  background-color: black;
+  background-color: white;
 }
 
   .navigation ul{
@@ -56,26 +56,32 @@ padding-top: 70px;
     padding: 10px 0px 20px 0px;
     margin-top: 3px;
     background-color: rgba(255, 255, 255, 1);
-    color: black;
     font-size: 50px;
     }
 
-    .navigation a#spezial:link, .navigation a:visited{
-      color: black;
+    .navigation a#spezial:link{
+      color: grey;
       text-decoration: none;
     }
+
+    .navigation a#spezial:visited{
+      color: grey;
+      text-decoration: none;
+    }
+
+
     .navigation a#spezial:hover{
 
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(0, 0, 0, 0);
       color: black;
-      font-size: 50px;
+      font-size: 49px;
     }
     .navigation a#spezial:focus{
-
+      color: black;
     }
     .navigation a#spezial:active{
-      background-color: rgba(0, 0, 0, 0.3);
-      color: black;
+      background-color: rgba(0, 0, 0, 0);
+      color: green;
       font-size: 50px;
     }
 
@@ -85,7 +91,7 @@ padding-top: 70px;
   right: 25px;
   font-size: 70px;
   margin-left: 50px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -95,7 +101,7 @@ padding-top: 70px;
   right: 25px;
   font-size: 70px;
   margin-left: 50px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
